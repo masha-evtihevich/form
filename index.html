@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+
+<body style="background: #98daf5;">
+    <h1
+        style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: #930 2px 2px 4px;">
+        Ваше резюме</h1>
+    <form name="question">
+        <p><input type="submit" value="Загрузить Ваше фото" style="background-color: #ffe; color: #930"></p>
+
+        1. <label for="name"> Ваше имя</label>
+        <input id="name" name="name" type="text" autocomplete="name" placeholder="Евтихевич Мария Андреевна"
+            style="background-color: #ffe; color: #930" />
+        <br>
+        <br>
+        2. <label for="birthday">Ваша дата рождения</label>
+        <input id="birthday" name="birthday" type="date" autocomplete="bday"
+            style="background-color: #ffe; color: #930">
+        <br>
+        <br>
+        3. <label for="tel"> Ваш номер телефона </label>
+        <input id="tel" name="tel" type="text" autocomplete="tel" placeholder="+375291204525"
+            style="background-color: #ffe; color: #930">
+        <br>
+        <br>
+        4. <label for="city">Город проживания</label>
+        <input id="city" name="city" type="text"
+            placeholder="Беларусь, Минск, ул. Асаналиева 00/00" style="background-color: #ffe; color: #930">
+        <br>
+        <br>
+        5. <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="evtihevich1996@mail.ru"
+            style="background-color: #ffe; color: #930">
+        <br>
+        <br>
+        6. <label for="password">Пароль </label> <br>
+        <input type="password" name="password" id="password" style="background-color: #ffe; color: #930">
+        <br>
+        <p> 7. Как Вы узнали о нашем сайте?
+            <select style="background-color: #ffe; color: #930">
+                <option>Друг рассказал</option>
+                <option>Реклама по телевизору</option>
+                <option>Увидел в интернете</option>
+                <option>Увидел в общественном транспорте</option>
+            </select>
+        </p>
+        <p>8. Расскажить как вы узнали о нашем сайте? <br>
+            <textarea cols="90" rows="15" style="background-color: #ffe; color: #930"></textarea>
+        </p>
+        <p style="text-align: center;">
+            <input type="button" value="Отправить форму" style="background-color: #ffe; color:green ">
+        </p>
+        <p style="text-align: center;">
+            <input type="reset" value=" Сбросить форму" style="background-color: #ffe; color: red">
+        </p>
+    </form>
+</body>
+
+</html>
